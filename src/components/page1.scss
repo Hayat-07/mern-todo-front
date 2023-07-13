@@ -1,0 +1,183 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+.page1{
+  margin-top: 0;
+  background-color: #e2e8e7;
+  background-image: linear-gradient(#7e7e7e, #ffffff);
+  height: 100vh;
+  h1{
+    color: #dedede;
+  }
+  .todoList{
+    padding:0 10% ;
+    color: white;
+
+
+
+
+    .todo{
+
+      h4{
+        margin: auto;
+      }
+      h6{
+        color: #00a400;
+        margin: auto;
+      }
+      margin-bottom: 10px;
+      display: grid;
+      grid-template-columns: 2fr 6fr 2fr 1fr 1fr;
+      background-color: #282c34;
+      .edite{
+        border: 2px solid #eeeeef;
+        border-right: 2px solid #008f00;
+          &:hover{
+            cursor: pointer;
+            background-color: #5d5d5d;
+            color: white;
+            border: none;
+          }&:active{
+    scale: 90%;
+         }
+      }
+      .delete{
+        border: 2px solid #eeeeef;
+        &:hover{
+          cursor: pointer;
+          background-color: #9f0000;
+          color: white;
+          border: none;
+        }&:active{
+    scale: 90%;
+         }
+      }
+    }
+  }
+}
+
+.inputDiv{
+  .dateInput{
+    color:white;
+    background-color: #00500e;
+    //margin:auto;
+   padding-left:10px;
+   padding-right:10px;
+    &:hover{
+      cursor: pointer;
+      background-color: green;
+      color: white;
+    }&:active{
+       scale: 95%;
+     }
+
+  }
+ padding: 5px 5%;
+  border: 1px solid gray;
+  display: grid;
+  grid-template-columns:2fr 6fr 2fr 2fr;
+  grid-gap: 10px;
+  //border: none;
+
+  margin-top: 7%;
+  margin-bottom: 7%;
+  input{
+    margin: auto;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: white;
+    text-align: center;
+
+  }
+  .input2{
+    margin: auto;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: white;
+    text-align: center;
+
+  }
+  button{
+   margin-left: 30px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: gray;
+    color:white;
+    border: none;
+    &:hover{
+      cursor: pointer;
+      background-color: green;
+      color: white;
+    }&:active{
+    scale: 95%;
+         }
+  }
+
+}
+
+
+.editeModal{
+ *{
+   padding: 0;
+   margin: 0;
+   border: none;
+ }
+  background-color: #004d1e;
+  margin: auto;
+
+  width: 80%;
+  padding: 5px ;
+
+  display: grid;
+  grid-template-columns:2fr 5fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  //border: none;
+
+
+  input{
+    margin: auto;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: white;
+    text-align: center;
+
+  }
+  .input2{
+    margin: auto;
+    height: 30px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    background-color: white;
+    text-align: center;
+
+  }
+  button{
+
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: gray;
+    color:white;
+    border: none;
+    &:hover{
+      cursor: pointer;
+      background-color: green;
+      color: white;
+    }&:active{
+       scale: 95%;
+
+     }
+  }
+
+}
